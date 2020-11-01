@@ -1,0 +1,92 @@
+html {
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    background-color: #F4F4F4;
+    height: 100%;
+}
+
+
+.ordine a {
+    text-decoration: none;
+    color: #171619;
+}
+.ordiniContainer{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 80vh;
+}
+.ordine{
+    width: 60%;
+    background-color:#F4D1B7;
+    border-radius: 10px;
+    padding: 1% 0 1% 0;
+    margin-bottom: 1%;
+    display: block;
+}
+
+
+.ordineUtente{    
+    margin: 0 0 2% 1%;
+    width: 50%;
+}
+
+.ordineTot{
+    text-align: right;
+    width: 95%;
+}
+
+.ordineInfo{
+    background-image: linear-gradient(
+        to left,
+        #F4D5BE, #F4F4F4);
+    margin-bottom: 1%;
+    padding: 0.5%;
+}
+
+#main{
+    margin: 100px 0 5% 0; 
+}
+
+
+#menutop{
+    position: fixed;
+    width: 100vw;
+    top:0;
+    z-index: 1;    
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #E2BCA1;
+}
+
+#footer{  
+    width: 100%;
+    z-index: 0;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    html,body{
+        width: 100%;
+    }
+    .ordine{
+        width: 100%;       
+        padding: 2% 0 2% 0;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    
+
+    #footer{
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width: 300px){
+    
+ 
+}

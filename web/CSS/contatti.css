@@ -1,0 +1,85 @@
+html,body {
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    background-color: #F4F4F4;
+}
+
+.contatti{
+    width: 40%;
+    display:inline-block;
+    padding-left: 5%;
+}
+
+.vetrina{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+#menutop{
+    position: fixed;
+    width: 100vw;
+    top:0;
+    z-index: 1;    
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #E2BCA1;
+}
+
+#footer{
+    width: 100%;
+    z-index: 0;
+}
+
+#main{
+    margin: 80px 0 0 0;
+    min-height: 80vh;
+}
+
+@media screen and (max-width: 1024px){
+    .contatti {
+        display: block;
+        width: 92%;
+        padding: 0 5% 5%;
+        height: auto;
+    }
+    
+    .vetrina {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+}
+
+
+@media screen and (max-width: 600px){
+    
+    .body{
+        height: auto;
+    }
+    
+    .contatti {
+        margin: 16% 0;
+        display: block;
+        width: 92%;
+        padding: 0 3%;
+        height: auto;
+    }
+    
+    .vetrina {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .vetrina img {
+        width: 100%;
+    }
+     
+    #footer{
+        display: none;
+    }
+}

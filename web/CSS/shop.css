@@ -1,0 +1,300 @@
+html,body {
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    height: 100%;
+    background-color: #F4F4F4;
+}
+
+button{
+    font-size: 16px;
+    background-color: #E2BCA1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 1% 2% 0;
+    cursor: pointer;
+}
+
+input[type=number], .quantitabox {
+  background-color: #E2B798;
+  color: white;
+  padding: 2% 3%;
+  margin: 2% 1%;
+  border: none;
+  border-radius: 5px;
+}
+
+
+input[type=text]{
+  padding: 0.8% 1.5%;
+  width: 100%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+}
+
+input[type=submit] {
+    font-size: 16px;
+    background-color: #E2BCA1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 1% 2% 0;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #171619;
+}
+
+
+.article{
+    width: 30.5%;
+    height: 30%;
+    display: inline-block;
+    background-color: #F4E2D9;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        #F4D1B7, #F4F4F4);
+}
+
+.articleImage:hover{
+    cursor: pointer; 
+}
+
+.articleNome {
+    font-weight: bold;
+    margin: 2% 0 0 2%;
+}
+
+.articlePrezzo {
+    font-size: 16px;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.articleInfo{   
+    height: 20%;
+    width: 100%;
+}
+.aggiungiCarrello{
+    font-size: 14px;
+    width: 100%;
+}
+
+.quantitabox{
+    width: 23%;
+}
+
+
+
+.addCartButton{
+    width: 70%;
+}
+
+.setButton{
+    display: inline;
+    width: 60%;
+}
+
+.removeButton{
+    display: inline;
+    width: 40%;
+}
+
+.modificaCarrello{
+    width: 100%;
+}
+
+
+.testoTot{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.acquistaButton{
+    width: 70%;
+    padding: 10% 5%;
+    margin: 3% auto;
+    display: block;
+}
+
+
+
+
+.cartProduct{
+    padding: 5%;
+    margin-bottom: 2%;
+    background-color: #B5838D;
+    background-image: linear-gradient(
+        to right,
+        #F4D5BE, #F4F4F4);
+}
+
+
+.cartWindow{  
+    border-radius: 10px;
+    background-color: #F4D1B7;
+    margin-top: 15%;
+}
+
+.cartTotal{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2%;
+    margin: 2% 0;
+}
+
+.cartCarrello{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5%;
+    text-align: center;
+}
+
+
+.form-popup {
+  width: 300px;
+  height: 294px;
+  padding: 10px;
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 3px solid #E2BCA1;
+  z-index: 9;
+  background-color: #F4F4F4;
+}
+
+.descrizioneField{
+  padding: 0.8% 1.5%;
+  width: 100%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  resize: none;
+  overflow: auto;
+}
+
+
+
+#main{
+    margin: 5% 0 3% 0;
+    padding: 0;
+    display: block;
+    overflow: auto;
+}
+
+
+#menutop{
+    position: fixed;
+    width: 100vw;
+    top:0;
+    z-index: 1;    
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #E2BCA1;
+}
+
+
+
+
+#shop{
+    z-index: 0;
+    height: 100%;
+    width: 59%;
+    float: left;
+    margin: 0 0.5% 0 10%;
+}
+
+#cart{
+    z-index: 1;
+    width: 20%;
+    float: left;
+    margin: 5% 10% 0 0;
+}
+
+#footer{  
+    width: 100%;
+    z-index: 0;
+}
+
+#nuovo{
+    margin-top: 11%;
+}
+
+
+
+@media screen and (max-width: 800px){
+    html,body{
+        height: 100%;
+    }
+    
+
+    
+    .cartWindow{  
+    border-radius: 10px;
+    background-color: #F4D1B7;
+    margin-top: 0;
+}
+    
+    #shop {
+    display: block;
+    height: 100%;
+    width: 98%;
+    margin: 40px 0;
+    padding: 0 1%;
+    }
+    
+    .article{
+    width: 45%;
+    height: 20%;
+    display: inline-block;
+    background-color: #F4E2D9;
+    padding: 3% 2%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        #F4D1B7, #F4F4F4);
+}
+
+
+#cart{
+    z-index: 1;
+    display: block;
+    width: 98%;
+    padding: 0 1%;
+    float: left;
+    margin: 0 0;
+}
+    
+    
+    #footer{
+        display: none;
+    }
+}
+

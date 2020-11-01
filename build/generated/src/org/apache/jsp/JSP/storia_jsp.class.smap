@@ -1,0 +1,18 @@
+SMAP
+storia_jsp.java
+JSP
+*S JSP
+*F
++ 0 storia.jsp
+JSP/storia.jsp
++ 1 menutop.jsp
+JSP/menutop.jsp
++ 2 footer.jsp
+JSP/footer.jsp
+*L
+1,13:50
+1#1,41:63
+13#0,23:103
+1#2,38:126
+35#0,4:163
+*E

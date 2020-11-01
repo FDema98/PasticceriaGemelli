@@ -1,0 +1,164 @@
+html {
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    background-color: #F4F4F4;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.sweetContainer{
+    width: 1024px;
+    margin:0 auto;
+    text-align: center;
+    height: 682px;
+}
+
+.sweetbox {
+    display: inline-block;
+    margin: 0;
+    float: left;
+    width: 33.33%;
+    height: 50%;
+    background-color: #abe2ff;
+}
+
+.sweetbox:hover .overlay{
+    opacity: 0.8;
+}
+
+.sweetEtichetta {
+    padding-top: 48%;
+    color: white;
+}
+
+.overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: brown;
+    min-height: 100%;
+}
+.image{
+    background-size: 100% 100%;
+}
+
+
+#menutop{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;     
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #E2BCA1;
+}
+
+#main{
+    margin-top: 3%;
+    z-index: 0;
+}
+
+#footer{
+    width: 100%;
+}
+
+.logoPasticceria{
+    background-image: url("../IMAGE/slide1.jpg");
+    background-size: cover;
+    width: 1024px;
+    margin:0 auto;
+    height: 640px;
+}
+
+@media screen and (max-width: 1024px){
+
+    html,body{
+        width: 1024px;
+        height: 635px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    
+    #main{
+        height: 100%;
+    }
+
+
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .logoPasticceria{
+        width: 100vw;
+        height: 62.5vw;
+        background-size: cover;
+        margin-top: 64px;
+    }
+
+    .sweetContainer{
+        width: 100%;
+        text-align: center;
+        height: 70%;
+    }
+
+    .sweetbox {
+        display: inline-block;
+        margin: 0;
+        float: left;
+        width: 50vw;
+        height: 50vw;
+        background-color: #abe2ff;
+    }
+    
+
+    .sweetEtichetta{
+        display: none;
+    }
+
+    .overlay{
+        display: none;
+    }
+
+
+    #footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px){
+    
+        html,body{
+        width: 300px;
+        height: auto;
+    }
+    
+    .logoPasticceria{
+        display: none;
+    }
+    
+    .sweetContainer{
+        width: 300px;
+        text-align: center;
+        height: 1800px;
+    }
+
+
+
+    .sweetbox {
+        display: inline-block;
+        margin: 0;
+        float: left;
+        width: 100%;
+        height: 16.66%;
+        background-color: #abe2ff;
+    }
+
+
+
+}

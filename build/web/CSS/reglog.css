@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-gen-2019, 1.40.26
+    Author     : Marco
+*/
+html{
+    
+    height: 100%;
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    background-image: URL("../IMAGE/patternlogin.jpg");
+    
+}
+
+input, select, textarea, button {font-family:inherit ; font-weight:inherit;}
+
+.login-register__form{
+    text-align: center;
+    margin: 0 auto ;
+    padding: 5% 0;
+    width: 100%;
+}
+
+.login-register__form input{
+    outline: none;
+    text-align: center;
+    width: 500px;
+    border: none;
+    padding: 1%;
+    margin: 2% auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: block;
+}
+
+.login-register__form input[type="submit"]{
+    text-align: center;
+    border: none;
+    background-color: orange;
+    width: 20%; 
+    border: 2px solid orange;
+}
+
+.login-register__form input:hover{
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.login-register__form input[type="submit"]:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.invisible{
+    display:none;
+    animation: bounceIn 2s 1;
+}
+
+#login-register__error{
+    color: orangered;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login-register__change{
+    color: orange;
+    font-weight: 400;
+}
+
+.login-register__change a{
+    text-decoration: none;
+    color: orange;
+}
+
+.login-register__change a:hover{
+    color: orangered;
+}
+
+.animatedBounceIn
+{
+    animation: bounceIn 2s 1;
+}
+@keyframes bounceIn {
+   0% { 
+      opacity: 0; 
+      transform: scale(.3);
+   }
+   50% { 
+      opacity: 1;
+      transform: scale(1.05);
+   }
+   70% {
+      transform: scale(.9);
+   }
+   100% {
+      transform: scale(1);
+   }
+} 
+
+@media screen and (max-width: 800px){
+     .login-register__form{
+        width: 100%;
+        padding-top: 20%;
+    }
+    
+    .login-register__form input{
+    width: 80%;
+    padding: 5%;
+    }
+    .login-register__form input[type="submit"]{
+    width: 50%;
+    }
+}

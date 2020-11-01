@@ -1,0 +1,38 @@
+html, body{
+    color: #171619;
+}
+.riga {
+    height: 100%;
+    display: table;
+    clear: both;
+    width: 100%;
+    padding-top: 20px;
+    border-top: 3px solid #E2BCA1;
+    background-image: linear-gradient(
+        #F4F4F4, #F4D1B7);
+}
+
+.colonna {
+   float: left;
+   width: 33.33%;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.info {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+.fa{
+    color: #171619;
+    text-decoration: none;
+}
+
+.fa:hover{
+    color: #E2BCA1;
+}

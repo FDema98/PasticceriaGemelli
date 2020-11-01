@@ -1,0 +1,18 @@
+SMAP
+contatti_jsp.java
+JSP
+*S JSP
+*F
++ 0 contatti.jsp
+JSP/contatti.jsp
++ 1 menutop.jsp
+JSP/menutop.jsp
++ 2 footer.jsp
+JSP/footer.jsp
+*L
+1,15:50
+1#1,41:65
+15#0,25:105
+1#2,38:130
+39#0,4:167
+*E

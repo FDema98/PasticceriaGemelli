@@ -1,0 +1,194 @@
+html, body {
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    background-color: #F4F4F4;
+}
+
+button{
+    font-size: 16px;
+    background-color: #E2BCA1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 1% 2% 0;
+    cursor: pointer;
+}
+
+input[type=number] {
+    background-color: #E2B798;
+    color: white;
+    padding: 2% 3%;
+    margin: 2% 1%;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=text]{
+  padding: 0.8% 1.5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-size: 16px;
+    background-color: #E2BCA1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.8% 1.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 1% 2% 0;
+    cursor: pointer;
+}
+
+.immagineProdotto{
+    height: auto;
+    max-width: 20%;
+    border-radius: 40px;
+    display: inline-block;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    resize: horizontal;
+}
+
+
+.prodottoNome {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.prodottoPrezzo {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.aggiungiCarrello{
+    margin-top: 2%;
+    width: 100%;
+}
+
+.deleteProdotto{
+    margin-top: 2%;
+    width: 100%;
+}
+
+.quantita{
+    width: 15%;
+}
+
+.addCartButton{
+    width: 70%;
+}
+
+.deleteButton{
+    padding: 0.8% 1.5%;
+}
+
+
+.admin{
+    margin-top: 3%;
+    padding: 0 10%;
+}
+
+.admin input{
+    display: block;
+}
+
+.descrizioneField{
+  padding: 0.8% 1.5%;
+  width: 100%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  resize: none;
+  overflow: auto;
+}
+
+
+.prodotto{
+    margin: 4% auto;
+    width: 80%;
+    min-height: 30%;
+    overflow: auto;
+}
+
+#menutop{
+    position: fixed;
+    width: 100vw;
+    top:0;
+    z-index: 1;     
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #E2BCA1;
+}
+
+#main{
+    margin: 80px 0 0;
+    min-height: 80vh;
+}
+
+
+
+#footer{
+    width: 100%;
+    z-index: 0;
+}
+
+
+@media screen and (max-width: 800px){
+   
+    .immagineProdotto{
+    height: auto;
+    max-width: 50%;
+    border-radius: 40px;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    resize: horizontal;
+}
+
+
+.prodotto{
+    margin: 4% auto;
+    width: 80%;
+    min-height: 30%;
+    overflow: auto;
+}
+
+.descrizioneProdotto {
+    float: left;
+    width: 96%;
+    padding: 2% 2%;
+}
+
+#main{
+    margin-top: 80px;
+}
+    
+    #footer{
+        display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    #footer{
+        position: absolute;
+        bottom: 0;
+    }
+    
+    #main{
+        height: auto;
+    }
+}

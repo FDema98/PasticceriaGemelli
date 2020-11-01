@@ -1,0 +1,73 @@
+html,body {
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    background-color: #F4F4F4;
+}
+
+.contDove{
+    z-index: 0;
+    min-height: 80vh;
+    margin: 100px 0 2%;
+}
+
+.doveText{
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+}
+
+.doveIMG{
+    width: 65%;
+    height: 80vh;
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.doveIMG iframe{
+    height:100%;
+    width:100%;
+    resize: both;
+    overflow: auto;
+}
+
+#menutop{
+    position: fixed;
+    width: 100vw;
+    top:0;
+    z-index: 1;    
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #E2BCA1;
+}
+
+#footer{
+    width: 100%;
+    z-index: 0;
+}
+
+
+
+@media screen and (max-width: 600px){
+    
+    .contDove{
+        height: auto;
+    }
+    
+    .doveText {
+        width: 90%;
+        display: block;
+        margin-bottom: 5%;
+    }
+    
+    .doveIMG{
+    padding: 0;
+    width: 90%;
+    height: 60vh;
+    display: block;
+    margin: 0 auto;
+    }
+    
+    #footer{
+        display: none;
+    }
+}

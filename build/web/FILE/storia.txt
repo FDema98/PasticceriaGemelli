@@ -1,0 +1,12 @@
+            <h2>Fondazione</h2>
+            <p>Il 12/08/1995 è la data che segna l’inaugurazione della Pasticceria Gemelli. 
+                Merito di Alessandro e Carlo Rizzo, grandi maestri della pasticceria.
+                Immancabile è la presenza della sorella Maria, responsabile dell’immagine del locale, conferendogli
+                uno stile unico, dalla scenografia delle vetrine alla presentazione dei prodotti. 
+                Un tocco femminile che rende l’ambiente accogliente ed ospitale.</p>
+            </br>
+            <h2>Rinconoscimenti</h2>
+            <p>La Pasticceria Gemelli fa parte della prestigiosa Associazione Relais Desserts che raccoglie le eccellenze
+                dell’alta pasticceria e cioccolateria nel mondo. Nel 2002 è stata eletta Bar dell’Anno dal Gambero Rosso 
+                che le ha assegnato nel 2014 la stella per i 10 anni di eccellenza, Tre Chicchi e Tre Tazzine.
+                A questi riconoscimenti si aggiungono le TreTorte della Guida alle migliori Pasticcerie d’Italia, come luogo d’incontro di gourmand e gourmet di tutto il mondo.</p>

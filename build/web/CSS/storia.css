@@ -1,0 +1,74 @@
+html,body {
+    font-size: 16px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    color: #171619;
+    background-color: #F4F4F4;
+}
+
+
+.foto {
+    float: left;
+    margin: 3% 2% 2% 2%;
+    width: 50%;
+    height: auto;
+}
+
+#menutop{
+    position: fixed;
+    width: 100vw;
+    top:0;
+    z-index: 1;    
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #E2BCA1;
+}
+
+.testo {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+
+#footer{
+    width: 100%;
+    z-index: 0;
+}
+
+#main{
+    margin: 5% 0 0;
+    min-height: 80vh;
+}
+
+@media screen and (max-width: 600px){
+    
+    .testo {
+        margin: 0 0;
+        display: block;
+        width: 94%;
+        padding: 0 3%;
+    }
+    
+    .foto {
+    margin: 3% 0%;
+    width: 100%;
+    height: auto;
+    float: bottom;
+}
+    
+    
+    #footer{
+        display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    #footer{
+        position: absolute;
+        bottom: 0;
+    }
+    
+    #main{
+        height: auto;
+    }
+}
